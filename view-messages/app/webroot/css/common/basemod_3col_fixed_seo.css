@@ -1,0 +1,57 @@
+/**
+ * "Yet Another Multicolumn Layout" - (X)HTML/CSS Framework
+ *
+ * (en) Variation of screen layout (basemod.css) for layout example "2col_fixed_seo"
+ * (de) Variation des Screenlayouts (basemod.css) für Layoutbeispiel "3col_fixed_seo"
+ *
+ * @copyright       Copyright 2005-2007, Dirk Jesse
+ * @license         CC-A 2.0 (http://creativecommons.org/licenses/by/2.0/),
+ *                  YAML-C (http://www.yaml.de/en/license/license-conditions.html)
+ * @link            http://www.yaml.de
+ * @package         yaml
+ * @version         3.0.3
+ * @revision        $Revision: 118 $
+ * @lastmodified    $Date: 2007-08-18 16:03:42 +0200 (Sa, 18 Aug 2007) $
+ */
+
+@media screen
+{
+  /**
+   * (en) Repositioning content container
+   * (de) Neupositionierung der Content Container
+   *
+   * |-------------------------------|
+   * | #header                       |
+   * | 960px                         |
+   * |-------------------------------|
+   * | #col2   | #col1     | #col3   |
+   * | 240px   | 480px     | 240px   |
+   * |-------------------------------|
+   * | #footer                       |
+   * |-------------------------------|
+   */
+
+  #page_margins {width: 975px; min-width:inherit; max-width:none }
+
+  #main {
+    width: 100%;
+  	float:left;
+  }
+
+  /* #col1 becomes the middle column | #col1 wird zur mittleren Spalte */
+  #col1 { width: 545px; float:left; margin-left: 170px; }
+  #col1_content {padding: 0px 10px 0px 10px;}
+
+  /* #col2 becomes the left column | #col2 wird zur linken Spalte */
+  #col2 { width: 170px; float:left;  margin-left: -715px;  }
+  #col2_content {padding-left: 5px; padding-right: 5px }
+
+  /* #col3 becomes the right column | #col3 wird zur rechten Spalte */
+  #col3 { margin-left: 0; margin-right: 0; width: 260px; float:right;}
+  #col3_content {padding: 0px 5px 0px 0px; vertical-align: top; }
+  
+  #header {
+	  padding: 10px;
+	  margin: 0;
+  }
+}

@@ -1,0 +1,35 @@
+#!/bin/bash
+################################################################################
+#
+# Bake is a shell script for running CakePHP bake script
+# PHP versions 4 and 5
+#
+# CakePHP(tm) :  Rapid Development Framework <http://www.cakephp.org/>
+# Copyright 2005-2007, Cake Software Foundation, Inc.
+# 								1785 E. Sahara Avenue, Suite 490-204
+# 								Las Vegas, Nevada 89104
+#
+# Licensed under The MIT License
+# Redistributions of files must retain the above copyright notice.
+#
+# @filesource
+# @copyright		Copyright 2005-2007, Cake Software Foundation, Inc.
+# @link				http://www.cakefoundation.org/projects/info/cakephp CakePHP(tm) Project
+# @package			cake
+# @subpackage		cake.cake.scripts
+# @since				CakePHP(tm) v 1.2.0.4604
+# @version			$Revision: 4696 $
+# @modifiedby		$LastChangedBy: phpnut $
+# @lastmodified	$Date: 2007-03-26 23:17:49 -0600 (Mon, 26 Mar 2007) $
+# @license			http://www.opensource.org/licenses/mit-license.php The MIT License
+#
+################################################################################
+
+LIB=${0/%cake/};
+APP=`pwd`/;
+
+exec php -q ${LIB}dispatch.php "$@" -working "${APP}"
+
+echo " ";
+
+exit;

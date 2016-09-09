@@ -1,0 +1,30 @@
+/**
+ * "Yet Another Multicolumn Layout" - (X)HTML/CSS Framework
+ *
+ * (en) IE-Patch stylesheet for "3col_fixed_seo" layout example
+ * (de) IE-Korrektur-Stylesheet für das "3col_fixed_seo" Beispiellayout
+ *
+ * @copyright       Copyright 2005-2007, Dirk Jesse
+ * @license         CC-A 2.0 (http://creativecommons.org/licenses/by/2.0/),
+ *                  YAML-C (http://www.yaml.de/en/license/license-conditions.html)
+ * @link            http://www.yaml.de
+ * @package         yaml
+ * @version         3.0.3
+ * @revision        $Revision: 118 $
+ * @lastmodified    $Date: 2007-08-18 16:03:42 +0200 (Sa, 18 Aug 2007) $
+ */
+
+@media screen
+{
+  /**
+   * Bugfix for an IE5 Rendering Problem
+   *
+   * @bugfix
+   * @affected   IE 5.x/Win
+   * @css-for    IE 5.x/Win, IE6
+   * @valid      no
+   */
+
+  * html #col3 {margin-left: -3px}
+  * html #col3 {ma\rgin-left: 0}
+}

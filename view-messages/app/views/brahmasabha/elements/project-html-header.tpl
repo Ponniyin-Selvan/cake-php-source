@@ -1,0 +1,1 @@
+{$javascript->link('swfobject.js')}

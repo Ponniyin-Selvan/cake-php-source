@@ -1,0 +1,55 @@
+Options -Indexes
+
+<IfModule mod_headers.c>
+<IfModule mod_expires.c>
+
+ExpiresActive On
+ExpiresDefault A0
+
+<FilesMatch "\.(xml|txt|html|js|css)$">
+FileETag none
+ExpiresDefault A604800
+Header append Cache-Control "proxy-revalidate"
+</FilesMatch>
+
+<FilesMatch "\.(gif|jpg|jpeg|png|swf)$">
+FileETag none
+ExpiresDefault A29030400
+Header append Cache-Control "public"
+</FilesMatch>
+
+AddOutputFilterByType DEFLATE text/html text/plain text/xml text/javascript text/css application/x-javascript
+</IfModule> 
+</IfModule> 
+
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteBase /
+	RewriteCond %{REQUEST_URI} ^/(stats|failed_auth\.html)/?(.*)$ [NC]
+	RewriteRule ^.*$ - [L]
+</IfModule> 
+
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteBase /
+	RewriteCond %{HTTP_HOST} ^www.ponniyinselvan.net$ [NC]
+	RewriteRule ^robots.txt$ /robots-ponniyinselvan.txt [L]
+	RewriteCond %{HTTP_HOST} ^www.ponniyinselvan.net$ [NC]
+	RewriteRule ^sitemap.xml$ /sitemap-ponniyinselvan-index.xml [L]
+</IfModule> 
+
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteBase /
+	RewriteCond %{HTTP_HOST} ^brahmasabha.org$ [NC]
+	RewriteRule ^robots.txt$ /robots-brahmasabha.org.txt [L]
+	RewriteCond %{HTTP_HOST} ^brahmasabha.org$ [NC]
+	RewriteRule ^sitemap.xml$ /sitemap-brahmasabha.org-index.xml [L]
+</IfModule> 
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
+</IfModule>

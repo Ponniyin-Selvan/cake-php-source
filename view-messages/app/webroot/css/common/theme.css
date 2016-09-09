@@ -1,0 +1,556 @@
+body#default {
+    font-family: Arial, Verdana, 'Trebuchet MS', Helvetica, sans-serif;
+    font-size: 75.00%;
+}
+
+#default a  {
+    color: #105CB6;
+}
+
+#default ul#submenu {
+   text-align: right;
+}
+
+#default ul#submenu li {
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+
+#default ul#submenu li a {
+   background-color: #fff;
+   padding: 2px 4px 2px 4px;
+}
+
+#default #header, #default #footer {
+    background-image: url(/img/common//header-blue.jpg);
+    color: #fff;
+}
+
+#default #header h1 {
+    font-size: 2.8em;
+    font-weight: normal;
+    vertical-align: middle;
+}
+
+#default #header h1 a {
+  color: #eee;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+#default #message-details p.info {
+    padding: 2px 0 3px 0;
+    margin: 0;
+    font-size: 85%;
+    color: #777;
+}
+
+#default ul.slinks {
+    text-align:  left;
+    margin: 0;
+    padding: 3px 0 0 0;
+    list-style: none;
+}
+
+#default ul.slinks li {
+    display: inline;
+    margin: 0;
+    padding: 1px;
+}
+
+#default ul.slinks li a {
+    padding: 0;
+}
+
+#default #message-details p, #default .page-content p {
+    font-family: Verdana;
+    padding-top: 5px;
+    font-size: 115%;
+    margin-bottom: 1em;
+    text-align: left;
+    line-height: 1.5em;
+}
+
+#default .msg-links, #default div.alt {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+#default .msg-links {
+    padding: 5px;
+}
+
+#default .msg-links {
+    text-align: right;
+    font-size: 120%;
+    background-color: #efefef;
+}
+
+#default .msg-links a {
+    padding: 3px 5px 3px 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#default div#ad-leaderboard {
+    text-align: center;
+}
+
+.msg-indent1 { padding-left:20px;}
+.msg-indent2 { padding-left:35px;}
+.msg-indent3 { padding-left:50px;}
+.msg-indent4 { padding-left:65px;}
+.msg-indent5 { padding-left:80px;}
+.msg-indent6 { padding-left:95px;}
+.msg-indent7 { padding-left:120px;}
+.msg-indent8 { padding-left:120px;}
+.msg-indent9 { padding-left:120px;}
+.msg-indent10 { padding-left:120px;}
+.msg-indent11 { padding-left:120px;}
+.msg-indent12 { padding-left:120px;}
+.msg-indent13 { padding-left:120px;}
+.msg-indent14 { padding-left:120px;}
+.msg-indent15 { padding-left:120px;}
+
+.msg-ielbow {
+  margin-top:-7px;
+  padding-right:5px;
+}
+.msg-elbow {
+  display:inline;
+  margin-left:-20px;
+}
+
+#default h3.topic {
+  display:inline;
+}
+
+#default #thread-messages {
+    padding-top: 5px;
+}
+
+#default #thread-messages h2 {
+    background-color: #6C757A;
+    color: #FFF;
+    padding: 5px;
+}
+
+#default .side-bar-widget {
+	margin: 0px 0px 10px 0px;
+	padding: 0;
+}	
+
+#default .side-bar-widget .xboxcontent {
+	padding: 0;
+	margin: 0;
+}
+
+#default .side-bar-widget h2 {
+    font-size: 130%;
+}
+
+#default .side-bar-widget ul {
+	margin: 0;
+	padding: 2px;
+}
+
+#default .side-bar-widget ul li {
+    padding: 2px 3px 2px 3px;
+	margin: 0;
+}
+
+#default .side-bar-widget ul li a {
+}
+
+#default #message-details p a {
+    padding: 2px 4px ;
+}
+
+#default #message-details p a,
+#default #message-details p a:active,
+#default #message-details p a:hover {
+    text-decoration: none;
+}
+
+#default #message-details p a:hover ,
+#default .side-bar-widget ul li a:hover,
+#default .side-bar-widget ul li:hover,
+#default .side-bar-widget ul li:hover a,
+#default .page-content a:hover,
+#default .msg-links a:hover {
+    background-color: orange;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#default #footer a { color: #fff; }
+
+#default #footer p { line-height: 1em; margin: 0 0 10px 0; }
+
+#default td.post-count {
+    text-align: right;
+}
+
+.xsnazzy h1 {
+	margin:0; 
+	font-size:1.2em; 
+	padding:0 10px 5px 10px; 
+	border-bottom:1px solid #444;
+}
+
+.xsnazzy {
+	background: transparent; 
+	width: 250px; 
+	float:left; 
+	margin:0 3px;
+}
+
+.xtop, .xbottom {
+	display:block; 
+	background:transparent; 
+	font-size:1px;
+}
+.xb1, .xb2, .xb3, .xb4 {
+	display:block; 
+	overflow:hidden;
+}
+.xb1, .xb2, .xb3 {
+	height:1px;
+}
+.xb2, .xb3, .xb4 {
+	background:#fff; 
+	border-left:1px solid #444; 
+	border-right:1px solid #444;
+}
+.xb1 {
+	margin:0 5px; 
+	background:#444;
+}
+.xb2 {
+	margin:0 3px; 
+	border-width:0 2px;
+}
+.xb3 {
+	margin:0 2px;
+}
+.xb4 {
+	height:2px; 
+	margin:0 1px;
+}
+
+.xboxcontent {
+	display:block; 
+	border:0 solid #444; 
+	border-width:0 1px; 
+	height:auto;
+}
+* html .xboxcontent {
+	height:1px;
+}
+
+.color_a {
+	background:#eee; 
+	color:#000;
+}
+.color_b {
+	background:#d4d8bd; 
+	color:#000;
+}
+.color_c {
+	background:#758279; 
+	color:#fff;
+}
+.color_d {
+	background:#b2ab9b; 
+	color:#000;
+}
+
+#nav_main input {
+	padding: 2px;
+	margin: 3px 2px 2px 2px;
+	vertical-align: top;
+}
+
+#nav_main img {
+	margin: 2px;
+}
+
+#nav_main form {
+	display: inline;
+}
+
+#footer ul li {
+	display: inline;
+	padding: 0px 5px;
+	margin: 0;
+	border-right: 1px solid #fff;
+}
+
+#footer ul li.first {
+	padding: 0px 5px 0px 0px;
+	margin: 0;
+}
+
+#default .page-nav {
+	padding: 3px;
+	margin: 3px;
+}
+
+#default .page-nav a {
+	padding: 2px 5px 2px 5px;
+	margin: 1px;
+	border: 1px solid #AAAADD;
+	text-decoration: none;
+	color: #000099;
+}
+
+#default .page-nav a:hover, 
+#default .page-nav a:active {
+	border: 1px solid #105CB6;
+	background-color: #105CB6;
+	color: #fff;
+}
+
+#default .page-nav span.current {
+	padding: 2px 5px 2px 5px;
+	margin: 1px;
+	border: 1px solid #105CB6;
+	font-weight: bold;
+	background-color: #105CB6;
+	color: #FFF;
+}
+
+#default .page-nav span.disabled {
+	padding: 2px 5px 2px 5px;
+	margin: 1px;
+	border: 1px solid #EEE;
+	color: #DDD;
+}
+
+#default #message-details p blockquote {
+	display: block;
+    background: transparent url("/img/common/bg_blockquote.gif") no-repeat 0 5px;
+    color: #747474; 
+    padding: 5px 0px 0px 35px;
+    font-family: Verdana,Arial;
+    font-size: 80%;
+    font-style: normal;
+}
+
+#default .page-content ul.slinks a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+#default .page-content ul.slinks a {
+	padding: 1px;
+	text-decoration: none;
+}
+
+#default .page-content  a {
+	padding: 3px;
+	text-decoration: none;
+}
+
+#default .toc-links p {
+	display: inline;
+}
+#default .toc-links {
+	padding-top: 25px;
+}
+
+#default .toc-links p.prev {
+	float: left;
+}
+
+#default .toc-links p.next {
+	float: right;
+}
+
+#default .float-right {
+	float: right;
+}
+
+#default .page-content p:first {
+	padding: 5px;
+}
+
+#default .page-content ul, #default #center ul.e404 {
+   font-size: 14px;
+   list-style: disc;
+}
+
+#default .page-content ul.slinks li {
+   margin: 0;
+}
+
+#default .page-content ul li, #default #center ul.e404 li {
+   margin: 2px 0px 0px 35px;
+}
+
+#default .page-content ul.author li {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+
+#default .page-content ul.toc {
+}
+
+#default .page-content ul.toc li {
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+#default .page-content ul.list li {
+   margin-bottom: 0.9em;
+   text-align: justify;
+   line-height: 1.8em;
+}
+
+#default .page-content ul.list li ul li {
+   margin-bottom: 0.5em;
+}
+
+.img-shadow {
+  float:left;
+  background: url(/img/common/shadow.png) no-repeat bottom right !important;
+  background: url(/img/common/shadow.gif) no-repeat bottom right;
+  margin: 10px 0 0 10px !important;
+  margin: 10px 0 0 5px;
+}
+
+.img-shadow img {
+  display: block;
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #a9a9a9;
+  margin: -6px 6px 6px -6px;
+  padding: 4px;
+}
+  
+#default #messages {
+    padding: 2px 0px 2px 0px;
+}
+#default .message {
+	padding: 1px 2px 4px 5px;
+}
+
+#default p.snippet {
+	padding: 0;
+	margin: 0;
+}
+
+#default p.snippet img {
+	vertical-align: middle;
+	margin-top: -3px;
+}
+
+#default .side-bar-widget table {
+	width: 248px;
+}
+
+#default .side-bar-widget th {
+	border-bottom: 1px solid #000;
+}
+
+#default .number {
+	text-align: right;
+}
+
+#default .google-ad {
+}
+
+#default .btn {
+	font-size: 80%;
+	margin-top: 2px;
+}
+
+#default p.center {
+    text-align: center;
+}
+
+#default p.italic {
+    font-style: italic;
+}
+
+#default p.bold {
+    font-weight: bold;
+}
+
+#default hr {
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ddd;
+}
+
+
+#default .box {
+    width: 490px;
+    margin: 0 17px 10px 17px;
+}
+
+#default .box a {
+    color: #fff;
+}
+
+#default .box img {
+    border: 1px solid #fff;
+    margin: 2px;
+}
+
+#default .lt {
+    height: 10px;
+    background: #6E6E6E url(/img/brahmasabha/lt.gif) no-repeat;
+    color: #FFF;
+}
+
+#default .lbox {
+    color: #eee;
+    padding: 10px 12px;
+    margin: 0 0 15px 0;
+    background: #6E6E6E url(/img/brahmasabha/lb.gif) no-repeat bottom left;
+}
+
+.alert {
+	color: red; 
+	font-weight: bold; 
+	padding: 2px 2px 2px 20px;
+	background: url(/img/common/alert.gif) no-repeat;
+}
+span.searchWords {
+	background-color: yellow;
+}
+.similpedia-widget { float: right; width: 220px; font-family: georgia, serif; margin: 0; padding: 0; border: 2px solid #515151; } 
+.similpedia-title { border-bottom: 5px solid #515151; background: #515151; margin: 0; .margin-bottom: -20px; text-align: center; color: #fff; font-weight: bold; font-size: 110%; } 
+ul.similpedia-items { margin: 0; padding: 0; list-style: none; font:12px georgia; } 
+ul.similpedia-items li a { display: block; height: 28px; text-decoration: none; color: #212121; background: #fff; padding: 5px 3px; border-top: 1px solid #046380; outline:none; } 
+ul.similpedia-items li a:hover { color: #212121; background: #f5f4d7; } 
+li.similpedia-items:hover ul, li.over ul { display: block; }
+#ad-square { float: right; }
+
+abbr, acronym, .help {
+  border-bottom: 1px dotted #333;
+  cursor: help;
+  }
+
+#map {
+	margin: 0 15px 0 15px;
+}
+
+#message-map {
+	margin: 0 15px 0 15px;
+	width: 940px;
+	height: 500px;
+}
+
+#message-details p {
+	font-family: Verdana, Arial;
+	font-size: 115%;
+}
+
+.div-others {
+	width: 100%;
+}
